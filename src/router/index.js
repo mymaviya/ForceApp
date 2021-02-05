@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Admin from "../views/Admin.vue";
 import Dashboard from "../views/Dashboard.vue";
+import Calendar from "../views/Calendar.vue";
 
 Vue.use(VueRouter);
 
@@ -21,7 +22,12 @@ const routes = [
         path: "/dashboard",
         name: "dashboard",
         component: Dashboard
-      }
+      },
+      {
+        path: "/calendar",
+        name: "calendar",
+        component: Calendar
+      },
     ]
   },
   {

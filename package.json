@@ -12,12 +12,15 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "@fortawesome/vue-fontawesome": "^2.0.2",
+    "@fullcalendar/daygrid": "^5.5.0",
+    "@fullcalendar/vue": "^5.5.0",
     "admin-lte": "^3.0.5",
     "bootstrap": "^4.6.0",
     "core-js": "^3.6.5",
     "popper.js": "^1.16.1",
     "vue": "^2.6.11",
-    "vue-router": "^3.2.0"
+    "vue-router": "^3.2.0",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
