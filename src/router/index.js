@@ -1,6 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-//import Home from "../views/Home.vue";
+import Home from "../views/Home.vue";
 import Admin from "../views/Admin.vue";
 import Dashboard from "../views/Dashboard.vue";
 import Calendar from "../views/Calendar.vue";
@@ -10,11 +10,6 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: "/",
-    name: "admin",
-    component: Admin
-  },
-  {
-    path: "/admin",
     name: "admin",
     component: Admin,
     children:[
